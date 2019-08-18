@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension version="3.7" type="template" client="site">
+	<name>My template</name>
+	<creationDate>2017</creationDate>
+	<author>Ivan Fomenko</author>
+	<authorEmail>Fomenko</authorEmail>
+	<authorUrl>http://</authorUrl>
+	<copyright>Copyright (C) 2005 - 2013 Open Source Matters, Inc. All rights reserved.</copyright>
+	<license>comercial</license>
+	<version>1.1</version>
+	<description>Template for CMS Joomla 3</description>
+
+	<files>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>favicon.ico</filename>
+		<folder>css</folder>
+		<folder>images</folder>
+	</files>
+
+	<positions>
+		<position>breadcrumbs</position>
+		<position>sidebar</position>
+        <position>menu</position>
+        <position>footer</position>
+        <position>aftertext</position>
+        <position>affix</position>
+	</positions>
+</extension>

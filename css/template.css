@@ -1,0 +1,706 @@
+* {
+margin:0;
+padding:0;
+}
+
+aside, footer, address, section, nav, header {
+display:block;
+}
+
+img, iframe, video, embed {
+max-width:100%!important;
+}
+
+
+/*  Tipografika  */
+
+h1 {
+    font-size: 2.6em;
+    color: #222;
+    padding: 0 0 0.3em;
+}
+
+h2 {
+    font-size: 1.8em;
+    color: #333;
+    padding: 0 0 0.3em;
+}
+
+h3 {
+    font-size: 1.8em;
+    color: #444;
+    padding: 0 0 0.3em;
+}
+
+#text p {
+    font-size: 1.125em;
+    color: #333;
+    padding: 0 0 0.5em 0;
+}
+
+#text a {
+    color: #008B8B;
+}
+
+#text a:hover {
+    color:#FF0000;
+}
+
+#text ul {
+    padding: 0.5em 20px;
+}
+
+#text ul li {
+    font-size: 1.125em;
+    color: #555;
+    padding: 0 0 0.3em 0;
+}
+
+/*  Layout  */
+
+#page {
+    width: 100%;
+    font: 100% 'PT Sans Narrow', sans-serif;
+    background: #DCDCDC;
+}
+
+header {
+    width: 100%;
+    padding-top: 1em;
+}
+
+.layout {
+ width: 1170px;
+ margin: 0 auto;
+ overflow: hidden;
+    
+}
+
+#logo {
+    width: 33%;
+    float: left;
+
+}
+
+#logo span {
+    font-size: 1em;
+    color: #000;
+}
+
+#geo{
+    width: 33%;
+    float: left;
+}
+
+#geo span {
+    display: block;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #222;
+    margin: 0 auto;
+    width: 55%;
+}
+
+#geo img {
+    position: relative;
+    left: 20px;
+    top: -10px;
+    float: left;
+}
+
+#geo span a{
+    font-size: 0.7em;
+    font-weight: normal;
+    text-decoration: none;
+    padding: 0.2em 20px;
+    color: #000;
+    background: linear-gradient(to top, #FF0000, #FFB6C1);
+    display: inline-block;
+    border-radius: 3px;
+}
+
+#geo span a:hover {
+    background: linear-gradient(to top, #FFB6C1, #FF0000);
+}
+
+#phone{
+    width: 33%;
+    float: left;
+    text-align: right;
+}
+
+#phone a.tel {
+    font-size: 1.5em;
+    color: #000;
+    text-decoration: none;
+    display: block;
+}
+
+#phone a.tel:hover {
+    color: #FF0000;
+}
+
+#phone span.time {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #696969;
+}
+
+#menu {
+    background: #000000;
+    width: 100%;
+    margin: 1.3em 0 0 0;   
+}
+
+#menu ul li {
+    float: left;
+    list-style: none;
+}
+
+#menu ul li a {
+    display: block;
+    font-size: 1.2em;
+    color: #FFF;
+    padding: 0.5em 70px;
+    text-decoration: none;
+    transition: all .4s linear;
+}
+
+#menu ul li a:hover, #menu ul li.current a {
+    background: #FF0000;
+    transition: all .3s linear;
+}
+
+#content {
+    width: 100%;
+}
+
+#text {
+    width: 65.8%;
+    float: left;
+    padding-top: 1.3em;
+}
+
+#breadcrumbs {
+    width: 96%;
+    background: #eee;
+    padding: 0.5em 0;
+    overflow: hidden;
+    margin-bottom: 1.5em;
+}
+
+#breadcrumbs ul li {
+    float: left;
+    list-style: none;
+}
+
+#sidebar {
+    width: 30.3%;
+    float: right;
+    background:url('../images/green_cup.png');
+}
+
+footer {
+    width: 100%;
+    background: url('../images/debut_dark.png');
+    padding: 1em 0;
+    font-size: 1.2em;
+}
+
+footer p {
+    color: #FFF;
+}
+
+.box3 {
+    width: 33%;
+    float: left;
+}
+
+footer a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #FF0000;
+}
+
+.debug {
+    background: #000000;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 0.3em 0;
+}
+
+#icon {
+    width: 100%;
+    float: left;
+}
+
+#icon img {
+    position: relative;
+    left: 20px;
+    top: 30px;
+    float: left;
+}
+
+
+/* Module  */
+
+.extended-address {
+    display: block;
+}
+
+.moduletable, .moduletable-form {
+    margin: 0 0 2em;
+    padding: 0 6%;
+}
+
+#sidebar ul.category-module li {
+   list-style: none; 
+   font-size: 1.2em;
+   padding: 0 0 0.2em 0;
+
+}
+
+#sidebar ul.category-module li a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+#sidebar ul.category-module li a:hover {
+    color: #FF0000;
+}
+
+.moduletable-dark {
+    background: url('../images/debut_dark.png');
+    padding: 0 6% 0.5em 6%;
+}
+
+.moduletable-dark h3 {
+    color: #FFF;
+    padding: 0.5em 0 0 0;
+}
+
+.hcard p {
+    color: #FFF;
+    padding: 0 0 0.7em 0;
+}
+
+
+.hcard p.tel a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.hcard p.tel a:hover {
+    color: #FF0000;
+}
+
+.hcard p.email a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.hcard p.email a:hover {
+    color: #FF0000;
+}
+
+.html_code {
+    color: #FFF;
+}
+
+.moduletable-form p, .moduletable-form span {
+    font-size: 1.125em;
+    
+}
+
+.btn {
+    background: linear-gradient(to top, #FF0000, #FFB6C1);
+    font: 1.3em 'PT Sans Narrow';
+    color: #000;
+    padding: 0.2em 33px;
+    border: none;
+}
+
+.btn:hover {
+    background: linear-gradient(to top, #FFB6C1, #FF0000);
+}
+
+footer .moduletable ul li {
+    list-style: none;
+    padding: 0 0 0.2em 0;
+}
+
+footer .moduletable ul li a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+footer .moduletable ul li a:hover {
+    color: #FF0000;
+}
+
+footer .box3:last-child {
+    text-align: right;
+}
+
+footer .box3:last-child a {
+    display: block;
+}
+
+footer .box3:last-child span {
+    font-size: 1.3em;
+}
+
+footer .box3 .socbutt a {
+    display: inline-block;
+    padding: 0 0 0 5%;
+}
+
+.socbutt {
+    margin-top: 1em;
+}
+
+
+/*  button UP  */
+
+#toTop {
+width:100px;
+border:1px solid #ccc;
+background:#222;
+text-align:center;
+padding:5px;
+position:fixed;
+bottom:10px; /* отступ кнопки от нижнего края страницы*/
+right:10px;
+cursor:pointer;
+display:none;
+color:#FFF;
+font-family:verdana;
+font-size:11px;
+}
+
+/*        Стили для модальных окон          */
+
+.Window {
+ position: fixed;
+ font-family: Arial, Helvetica, sans-serif;
+ top: 0;
+ right: 0;
+ bottom: 0;
+ left: 0;
+ background: rgba(0,0,0,0.7);
+ z-index: 99999;
+ -webkit-transition: opacity 400ms ease-in;
+ -moz-transition: opacity 400ms ease-in;
+ transition: opacity 400ms ease-in;
+ display: none;
+ pointer-events: none;
+}
+
+.Window:target {
+ display: block;
+ pointer-events: auto;
+}
+
+.Window > div {
+ width: 460px;
+ position: relative;
+ margin: 10% auto;
+ padding: 30px 10px 10px;
+ border-radius: 10px;
+ background: #222;
+ box-shadow: 0px 0px 20px 2px;
+}
+
+.close {
+ background: #cc3300;
+ color: #FFFFFF;
+ line-height: 25px;
+ position: absolute;
+ right: -12px;
+ text-align: center;
+ top: -10px;
+ width: 24px;
+ text-decoration: none;
+ font-weight: bold;
+ -webkit-border-radius: 12px;
+ -moz-border-radius: 12px;
+ border-radius: 12px;
+ -moz-box-shadow: 1px 1px 3px #000;
+ -webkit-box-shadow: 1px 1px 3px #000;
+ box-shadow: 1px 1px 3px #000;
+}
+.close:hover { background: #990000; }
+
+
+/*  responsiv */
+
+/*  1024px */
+@media screen and (max-width: 1024px),only screen and (max-device-width: 1024px) {
+    
+.layout { width: 960px;
+}
+#logo {
+    width: 30%;
+}
+
+#geo {
+    width: 36%;
+}
+
+#geo span {
+    width: 75%;
+}
+
+#menu ul li a {
+    font-size: 1em;
+    padding: 0.3em 50px;
+}
+
+}
+
+/*  854px */
+@media screen and (max-width: 854px),only screen and (max-device-width: 854px) {
+    
+.layout {
+width: 810px;
+}
+#geo img {
+    display:none;
+}
+#geo span a {
+    font-size: 0.6em;
+}
+
+#logo {
+    width: 30%;
+}
+
+#geo {
+    width: 36%;
+}
+
+#geo span {
+    width: 75%;
+}
+
+#menu ul li a {
+    font-size: 1em;
+    padding: 0.3em 50px;
+}
+
+}
+
+/*  800px */
+@media screen and (max-width: 800px),only screen and (max-device-width: 800px) {
+.layout {
+width: 760px;
+}
+#logo span {
+    font-size: 0.9em;
+}
+#geo {
+    width: 32%;
+    margin: 0 0 0 4%;
+}
+#menu ul li a {
+    font-size: 1em;
+    padding: 0.3em 40px;
+}
+.moduletable-form h3 {
+    font-size: 1.3em;
+}
+#fixed {
+    position: static;
+    margin-top: 0!important;
+}
+}
+
+/*  768px */
+@media screen and (max-width: 768px),only screen and (max-device-width: 768px) {
+.layout {
+    width: 710px;
+}
+#logo span {
+    font-size: 0.9em;
+}
+footer {
+    font-size: 1em;
+}
+.moduletable-form h3 {
+    font-size: 1.3em;
+}
+}
+
+/*  640px */
+@media screen and (max-width: 640px),only screen and (max-device-width: 640px) {
+.layout {
+    width: 600px;
+}
+#logo span {
+    font-size: 0.7em;
+}
+#geo {
+    width: 30%;
+    margin: 0 0 0 6%;
+}
+#geo span {
+    width: 85%;
+    font-size: 1em;
+}
+#phone a.tel {
+    font-size: 1.2em;
+}
+#phone span.time {
+    font-size: 0.9em;
+}
+#menu ul li a {
+    font-size: 1em;
+    padding: 0.3em 30px;
+}
+#text {
+    width: 60.8%;
+}
+#sidebar {
+    width: 35.3%;
+    font-size: 1em;
+}
+footer {
+    font-size: 0.9em;
+}
+footer .box3 img {
+    width:80%;
+}
+#icon img {
+    display: none;
+}
+.moduletable-form h3 {
+    font-size: 1.3em;
+}
+}
+
+/*  600px */
+@media screen and (max-width: 600px),only screen and (max-device-width: 600px) {
+.layout {
+    width: 540px;
+}
+
+/*  mobile menu  */
+#menu.topmenu {
+    height: 2.5em;
+    background: #000000 url(../images/menuicon.png) no-repeat center left 2%;
+    cursor: pointer;
+    transition: 1s;
+}
+#menu.topmenu ul li {
+    display: none;
+}
+#menu.mobilemenu {
+    background: #000000 url(../images/menuicon.png) no-repeat top 1em left 2%;
+    cursor: pointer;
+    transition: 1s;
+}
+
+#menu.mobilemenu ul {
+    width: 90%;
+    padding: 0 0 0 8%;
+}
+
+/*   end  */
+#logo {
+    width: 100%;
+    float: none;
+    margin:  0 0 1em 0;
+    text-align: center;
+}
+#logo span {
+    font-size: 0.9em;
+}
+#geo {
+    width: 100%;
+    margin: 1em 0;
+    float: none;
+    text-align: center;
+}
+#geo span a {
+    display: block;
+    width: 35%;
+    margin: 0.2em auto;
+    font-size: 0.8em;
+}
+#phone{
+    width: 100%;
+    float: none;
+    text-align: center;
+}    
+#phone a.tel {
+    font-size: 1.3em;
+}
+#phone span.time {
+    font-size: 1em;
+}
+#menu ul li {
+    float: none;
+}
+#text {
+    width: 100%;
+}
+#sidebar {
+    width: 100%;
+    font-size: 1em;
+}
+footer {
+    font-size: 1.2em;
+}
+footer .box3 {
+    width: 100%;
+    float: none;
+    margin: 1em 0;
+}
+footer .box3:last-child {
+    text-align: left;
+}
+}
+
+/*  480px */
+@media screen and (max-width: 480px),only screen and (max-device-width: 480px) {
+.layout {
+    width: 440px;
+}
+}
+
+/*  375px */
+@media screen and (max-width: 375px),only screen and (max-device-width: 375px) {
+.layout {
+    width: 330px;
+}
+#geo span a {
+    display: block;
+    width: 40%;
+    margin: 0.2em auto;
+    font-size: 0.7em;
+}
+}
+
+/*  360px */
+@media screen and (max-width: 360px),only screen and (max-device-width: 360px) {
+.layout {
+    width: 320px;
+}
+#geo span a {
+    width: 45%;
+}
+}
+
+/*  320px */
+@media screen and (max-width: 320px),only screen and (max-device-width: 320px) {
+.layout {
+    width: 280px;
+}
+#geo span a {
+    width: 50%;
+}
+}
